@@ -6,7 +6,6 @@ public class HelloWorld {
 	public static void main(String[] args){
 		
 		try{
-			String s = "";
 			BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
 			while (stdin.ready()){
 				System.out.println("Hello World This is TDTU");
